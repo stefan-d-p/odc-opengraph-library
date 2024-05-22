@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <AssemblyName>Without.Systems.OpenGraph.Library</AssemblyName>
+        <RootNamespace>Without.Systems.OpenGraph</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="OpenGraph-Net" Version="4.0.1" />
+        <PackageReference Include="OutSystems.ExternalLibraries.SDK" Version="1.4.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\OpenGraph.png" />
+      <EmbeddedResource Include="Resources\OpenGraph.png" />
+    </ItemGroup>
+
+</Project>

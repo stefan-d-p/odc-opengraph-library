@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGraph.Library", "OpenGraph.Library\OpenGraph.Library.csproj", "{4D9523AC-83CF-4FC9-BBF5-6FBCFE3814F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenGraph.Test", "OpenGraph.Test\OpenGraph.Test.csproj", "{06EFA7A7-31CE-47D9-96B6-16620B164A16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D9523AC-83CF-4FC9-BBF5-6FBCFE3814F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D9523AC-83CF-4FC9-BBF5-6FBCFE3814F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D9523AC-83CF-4FC9-BBF5-6FBCFE3814F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D9523AC-83CF-4FC9-BBF5-6FBCFE3814F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06EFA7A7-31CE-47D9-96B6-16620B164A16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06EFA7A7-31CE-47D9-96B6-16620B164A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06EFA7A7-31CE-47D9-96B6-16620B164A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06EFA7A7-31CE-47D9-96B6-16620B164A16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
